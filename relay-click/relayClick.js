@@ -8,8 +8,8 @@
      */
     constructor() {
         this.deviceName = 'relays';
-        this.serviceUUID = '917649a0-d98e-11e5-9eec-0002a5d5c51b';
-        this.characteristic1UUID = '917649a1-d98e-11e5-9eec-0002a5d5c51b';
+        this.serviceUUID = '0000a032-0000-1000-8000-00805f9b34fb';
+        this.characteristic1UUID = '0000a040-0000-1000-8000-00805f9b34fb';
         this.device = null;
         this.server = null;
         // The cache allows us to hold on to characeristics for access in response to user commands 
