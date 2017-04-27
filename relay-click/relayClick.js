@@ -7,7 +7,7 @@
      * customize your project here to reflect the uuid of your service and characteristics.
      */
     constructor() {
-        this.deviceName = 'relays';
+        this.deviceName = 'bulbs';
         this.serviceUUID = '0000a032-0000-1000-8000-00805f9b34fb';
         this.characteristic1UUID = '0000a040-0000-1000-8000-00805f9b34fb';
         this.device = null;
