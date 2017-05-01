@@ -15,7 +15,7 @@
         // The cache allows us to hold on to characeristics for access in response to user commands 
         this._characteristics = new Map();
     }
-
+acceptAllDevices = true;
     connect(){
         return navigator.bluetooth.requestDevice({
          filters: [{
